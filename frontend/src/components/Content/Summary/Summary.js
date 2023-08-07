@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactCurvedText from "react-curved-text";
 import './Summary.css'
 import circle from '../../../images/button.png'
 const myComponentStyle = {
