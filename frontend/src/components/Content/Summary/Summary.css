@@ -1,0 +1,63 @@
+.Summary{
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
+.Summary h1{
+    font-size: 50px;
+}
+.Summary p{
+    margin-top: 3%;
+}
+.title{
+    padding: 5px 30px;
+    margin-bottom: 75px;
+    border-width: 3px;
+    border-color:  rgb(40,233,140);
+    border-radius: 40px;
+    background: none;
+    outline: none;
+    border-style: outset;
+}
+.Image-text{
+    position: absolute;
+    
+    right: 400px;
+    top: 610px;
+}
+
+.rotating-image-container {
+    width: 200px; /* Set the container size according to your image size */
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    right: 335px;
+    top: 520px;
+    z-index: 1;
+    opacity: 70%;
+  }
+  
+  .rotating-image {
+    width: 100%;
+    height: 100%;
+    animation: rotate 5s linear infinite; /* Adjust the animation duration as needed */
+    cursor: pointer;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+@media only screen and (max-width: 1200px) {
+  .rotating-image{
+    visibility: hidden;
+    opacity: 100%;
+  }
+    .Image-text{
+      opacity: 100%;
+      visibility: hidden
+    }
+  
+}

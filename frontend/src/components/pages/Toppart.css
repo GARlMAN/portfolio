@@ -1,0 +1,28 @@
+.topPartDiscrition {
+    z-index: 1000;
+    border-width: 1px;
+    border: solid;
+    border-color: aqua;
+    margin-top: 10px;
+    width: 400px;
+    height: 90vh;
+    padding: 10px;
+    border-radius: 40px;
+
+
+}
+
+
+
+.topPartDiscrition h1{
+ margin: 0px; 
+ font-size: 4vmax;
+}
+
+.topPartDiscrition p{
+    margin: 0px; 
+    font-size: 1.2vmax;
+
+}
+
+

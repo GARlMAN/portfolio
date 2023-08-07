@@ -1,0 +1,15 @@
+/* App.css */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    background-color: rgb(31,31,31);
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+
+.App{
+    margin-bottom: 20px;
+}
+  
